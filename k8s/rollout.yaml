@@ -35,7 +35,7 @@ spec:
     spec:
       containers:
         - name: orders
-          image: ghcr.io/wilsonm1/gitops-canary-demo:latest
+          image: ghcr.io/wilsonm1/gitops-canary-demo:be091ef3317b0745d7af9ba36994c19138ae99d5
           ports:
             - containerPort: 8080
           env:
